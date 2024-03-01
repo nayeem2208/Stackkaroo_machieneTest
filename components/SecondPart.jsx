@@ -1,9 +1,10 @@
+import FouthMini from "./MiniComponents/Fouth"
 
 
 function SecondPart() {
   return (
-    <div>
-      second
+    <div className="">
+     <FouthMini/>
     </div>
   )
 }

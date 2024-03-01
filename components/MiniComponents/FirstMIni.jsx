@@ -1,9 +1,6 @@
 export default function FirstMini() {
   return (
-    <div
-      className="w-full h-full"
-      style={{ fontFamily: "Poppins, sans-serif" }}
-    >
+    <div className="w-full h-full mb-24">
       <div>
         <h1 className="font-bold text-4xl text-gray-600">
           Boost Your Web Development <br /> Success with Stackkaroo's
