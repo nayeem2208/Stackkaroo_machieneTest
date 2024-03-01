@@ -173,7 +173,7 @@ export default function SecondMini() {
               style={{ borderRight: "2px solid gray" }}
               className="w-1/3 flex justify-center items-center py-6"
             >
-              <VscCode className="w-12 h-12 text-gray-600 " />
+              <VscCode className="w-6 h-6 md:w-12 md:h-12 text-gray-600 " />
             </div>
             <div
               style={{ borderRight: "1px solid gray" }}

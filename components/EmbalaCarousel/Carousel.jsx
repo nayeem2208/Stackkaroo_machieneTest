@@ -21,11 +21,11 @@ const EmblaCarousel = (props) => {
   return (
     <section className="embla max-w-full ">
       <div className="embla__viewport" ref={emblaRef}>
-        <div className="embla__container ">
+        <div className="embla__container  mx-auto">
           {slides.map((slide, index) => (
-            <div className="embla__slide max-w-64 mx-2 w-64 h-42 " key={index}>
+            <div className="embla__slide max-w-64 mx-2 w-full h-42 " key={index}>
               <div
-                className="embla__slide__number text-center flex flex-col justify-center items-center rounded-lg p-4 min-h-64"
+                className="embla__slide__number text-center flex flex-col justify-center items-center rounded-lg p-4 min-h-64 overflow-hidden"
                 style={{
                   border: "2px solid",
                   borderImage: "linear-gradient(180deg, orange, blue) 0.5",
@@ -37,7 +37,7 @@ const EmblaCarousel = (props) => {
                   alt=""
                   className="w-12 h-12 mb-4 rounded "
                 />
-                <h1 className="max-w-64 text-xs">{slide.heading}</h1>
+                <h1 className=" text-xs ">{slide.heading}</h1>
               </div>
             </div>
           ))}
