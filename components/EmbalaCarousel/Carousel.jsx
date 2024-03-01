@@ -23,9 +23,9 @@ const EmblaCarousel = (props) => {
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
           {slides.map((slide, index) => (
-            <div className="embla__slide mx-2 w-64 h-42" key={index}>
+            <div className="embla__slide max-w-64 mx-2 w-64 h-42 " key={index}>
               <div
-                className="embla__slide__number text-center flex flex-col justify-center items-center rounded-lg "
+                className="embla__slide__number text-center flex flex-col justify-center items-center rounded-lg p-4 min-h-64"
                 style={{
                   border: "2px solid",
                   borderImage: "linear-gradient(180deg, orange, blue) 0.5",

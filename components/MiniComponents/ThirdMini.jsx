@@ -25,7 +25,7 @@ export default function ThirdMini() {
             style={{
               borderRight: "2px solid gray",
             }}
-            className="w-full md:w-3/5 h-full p-2 md:p-12  
+            className="w-full md:w-3/5 h-full px-4 p-3 md:p-12  
              "
           >
             <img src="Group 125.png" className="h-full" alt="" />
