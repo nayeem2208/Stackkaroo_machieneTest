@@ -40,7 +40,7 @@ export default function FifthMini() {
         ))}
 
       </div>
-              <div className="block md:hidden mt-8 overflow-hidden">
+              <div className="block md:hidden mt-8 overflow-hidden max-w-full ">
         <EmblaCarousel slides={Data}/></div>
     </div>
   );

@@ -19,9 +19,9 @@ const EmblaCarousel = (props) => {
   } = usePrevNextButtons(emblaApi);
 
   return (
-    <section className="embla ">
+    <section className="embla max-w-full ">
       <div className="embla__viewport" ref={emblaRef}>
-        <div className="embla__container">
+        <div className="embla__container ">
           {slides.map((slide, index) => (
             <div className="embla__slide max-w-64 mx-2 w-64 h-42 " key={index}>
               <div
