@@ -5,7 +5,9 @@ export default function ThirdMini() {
   return (
     <div className="flex justify-center items-center mt-36 mb-24">
       <div>
-        <img src="Group 169.png" className="h-full" alt="" />
+        <div className=" flex justify-center">
+        <img src="Group 169.png" className="h-full flex justify-center" alt="" />
+        </div>
         <h1
           style={{ color: "#0A56F1" }}
           className="text-5xl font-bold text-center mt-24"
