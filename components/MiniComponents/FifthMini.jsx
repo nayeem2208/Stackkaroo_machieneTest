@@ -11,7 +11,7 @@ export default function FifthMini() {
       </div>
       <div className=" flex flex-wrap justify-center mt-24">
         <div
-          className=" m-6 text-center flex flex-col justify-center items-center rounded-lg w-80 h-72"
+          className=" m-7 text-center flex flex-col justify-center items-center rounded-lg w-80 h-72"
           style={{
             border: "2px solid",
             borderImage: "linear-gradient(180deg, orange, blue) 0.5",
@@ -25,7 +25,7 @@ export default function FifthMini() {
         </div>
 
         <div
-          className=" m-6 text-center flex flex-col justify-center items-center rounded-lg w-80 h-72"
+          className=" m-7 text-center flex flex-col justify-center items-center rounded-lg w-80 h-72"
           style={{
             border: "2px solid",
             borderImage: "linear-gradient(180deg, orange, blue) 0.5",
@@ -38,7 +38,7 @@ export default function FifthMini() {
           </h1>
         </div>
         <div
-          className=" m-6 text-center flex flex-col justify-center items-center rounded-lg w-80 h-72"
+          className=" m-7 text-center flex flex-col justify-center items-center rounded-lg w-80 h-72"
           style={{
             border: "2px solid",
             borderImage: "linear-gradient(180deg, orange, blue) 0.5",
@@ -51,7 +51,7 @@ export default function FifthMini() {
           </h1>
         </div>
         <div
-          className=" m-6 text-center flex flex-col justify-center items-center rounded-lg  w-80 h-72"
+          className=" m-7 text-center flex flex-col justify-center items-center rounded-lg  w-80 h-72"
           style={{
             border: "2px solid",
             borderImage: "linear-gradient(180deg, orange, blue) 0.5",
@@ -65,7 +65,7 @@ export default function FifthMini() {
           </h1>
         </div>
         <div
-          className=" m-6 text-center flex flex-col justify-center items-center rounded-lg w-80 h-72"
+          className=" m-7 text-center flex flex-col justify-center items-center rounded-lg w-80 h-72"
           style={{
             border: "2px solid",
             borderImage: "linear-gradient(180deg, orange, blue) 0.5",
@@ -78,7 +78,7 @@ export default function FifthMini() {
           </h1>
         </div>
         <div
-          className=" m-6 text-center flex flex-col justify-center items-center rounded-lg w-80 h-72"
+          className=" m-7 text-center flex flex-col justify-center items-center rounded-lg w-80 h-72"
           style={{
             border: "2px solid",
             borderImage: "linear-gradient(180deg, orange, blue) 0.5",
@@ -92,7 +92,7 @@ export default function FifthMini() {
           </h1>
         </div>
         <div
-          className=" m-6 text-center flex flex-col justify-center items-center rounded-lg w-80 h-72"
+          className=" m-7 text-center flex flex-col justify-center items-center rounded-lg w-80 h-72"
           style={{
             border: "2px solid",
             borderImage: "linear-gradient(180deg, orange, blue) 0.5",
@@ -105,7 +105,7 @@ export default function FifthMini() {
           </h1>
         </div>
         <div
-          className=" m-6 text-center flex flex-col justify-center items-center rounded-lg w-80 h-72"
+          className=" m-7 text-center flex flex-col justify-center items-center rounded-lg w-80 h-72"
           style={{
             border: "2px solid",
             borderImage: "linear-gradient(180deg, orange, blue) 0.5",
@@ -116,7 +116,7 @@ export default function FifthMini() {
           <h1 className="max-w-64 text-lg">Enhanced Customer Satisfaction</h1>
         </div>
         <div
-          className=" m-6 text-center flex flex-col justify-center items-center rounded-lg w-80 h-72"
+          className=" m-7 text-center flex flex-col justify-center items-center rounded-lg w-80 h-72"
           style={{
             border: "2px solid",
             borderImage: "linear-gradient(180deg, orange, blue) 0.5",
