@@ -3,7 +3,7 @@ import { HiOutlineBars3 } from "react-icons/hi2";
 export default function FirstMini() {
   return (
     <div className="w-full h-full mb-4 md:mb-24 mx-6">
-            <HiOutlineBars3 className=" w-8 h-8 text-gray-700 mb-2"/>
+            <HiOutlineBars3 className="block md:hidden w-8 h-8 text-gray-700 mb-2"/>
       <div>
         <h1 className="font-bold text-xs md:text-4xl text-gray-600">
           Boost Your Web Development <br /> Success with Stackkaroo's

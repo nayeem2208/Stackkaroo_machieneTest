@@ -14,30 +14,34 @@ export default function FifthMini() {
           Why should you Choose Stackkaroo's Website Development Service?
         </h1>
       </div>
-      <div className=" flex flex-wrap justify-center mt-24">
+      <div className="hidden  md:flex flex-wrap justify-center mt-24">
         {Data.map((data, index) => (
           <div>
-            <div
-              className="hidden md:block m-7 text-center flex flex-col justify-center items-center rounded-lg w-80 h-72"
-              style={{
-                border: "2px solid",
-                borderImage: "linear-gradient(180deg, orange, blue) 0.5",
-                borderRadius: "8px",
-              }}
-            >
-              <img
-                src={data.imgSrc}
-                alt=""
-                className="w-16 h-16 mb-4 rounded "
-              />
-              <h1 className="max-w-64 text-lg">{data.heading}</h1>
-            </div>
+          <div
+            className="hidden md:block mx-6 my-6 text-center flex flex-col justify-center items-center rounded-lg w-80 h-72"
+            style={{
+              border: "2px solid",
+              borderImage: "linear-gradient(180deg, orange, blue) 0.5",
+              borderRadius: "8px",
+              display: "flex", 
+              justifyContent: "center", 
+              alignItems: "center",
+            }}
+          >
+            <img
+              src={data.imgSrc}
+              alt=""
+              className="w-16 h-16 mb-4 rounded"
+            />
+            <h1 className="max-w-64 text-lg">{data.heading}</h1>
           </div>
+        </div>
+        
         ))}
 
-              <div className="block md:hidden">
-        <EmblaCarousel slides={Data}/></div>
       </div>
+              <div className="block md:hidden mt-8">
+        <EmblaCarousel slides={Data}/></div>
     </div>
   );
 }
